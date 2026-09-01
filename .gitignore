@@ -1,0 +1,21 @@
+# Local experiment/battle logs (not for publication)
+battle-logs/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Credentials / auth caches (never commit)
+.aileague_credentials.json
+*.har
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
